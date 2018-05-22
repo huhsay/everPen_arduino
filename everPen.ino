@@ -106,6 +106,8 @@ void loop() {
 }
 
 void changeState() {
+  
+  _delay_ms(100);
 
   if(digitalRead(buttonPin)==LOW){
     sw = !sw;
